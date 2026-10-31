@@ -1,0 +1,12 @@
+# top level version field is required
+version: 2
+
+githubApp:
+  enabled: false
+  pullRequestAlertsEnabled: true
+  dependencyOverviewEnabled: false
+  projectReportsEnabled: true
+
+projectIgnorePaths:
+  - '.github/'
+  - 'examples/'
