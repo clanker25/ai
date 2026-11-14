@@ -1,0 +1,34 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "./dist/out-tsc",
+    "strict": false,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": false,
+    "noImplicitReturns": false,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "isolatedModules": false,
+    "esModuleInterop": true,
+    "experimentalDecorators": false,
+    "moduleResolution": "bundler",
+    "importHelpers": true,
+    "module": "esnext",
+    "target": "esnext",
+    "useDefineForClassFields": false
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": true,
+    "strictInjectionParameters": false,
+    "strictInputAccessModifiers": false,
+    "strictTemplates": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["src/server.ts"],
+  "references": [
+    {
+      "path": "../../packages/angular"
+    }
+  ]
+}

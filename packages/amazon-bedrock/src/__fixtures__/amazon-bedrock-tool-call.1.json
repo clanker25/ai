@@ -1,0 +1,24 @@
+{
+  "output": {
+    "message": {
+      "role": "assistant",
+      "content": [
+        {
+          "toolUse": {
+            "toolUseId": "tool-use-id",
+            "name": "bash",
+            "input": {
+              "command": "ls -l"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "usage": {
+    "inputTokens": 20,
+    "outputTokens": 20,
+    "totalTokens": 40
+  },
+  "stopReason": "tool_use"
+}
